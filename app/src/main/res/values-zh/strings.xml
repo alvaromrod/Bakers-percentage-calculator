@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">烘焙百分比计算器</string>
+    <string name="recipe_name">食谱名称</string>
+    <string name="ingredients">配料</string>
+    <string name="add_ingredient">添加配料</string>
+    <string name="save_recipe">保存食谱</string>
+    <string name="total_dough_weight">总面团重量</string>
+    <string name="edit_recipe">编辑食谱</string>
+    <string name="delete_recipe">删除食谱</string>
+    <string name="share_recipe">分享食谱</string>
+    <string name="backup_recipes">备份食谱</string>
+    <string name="restore_recipes">恢复食谱</string>
+    <string name="import_recipe">导入食谱</string>
+    <string name="share_as_text">以文本形式分享</string>
+    <string name="share_as_qr">通过二维码分享</string>
+    <string name="scan_with_camera">使用相机扫描</string>
+    <string name="choose_from_gallery">从图库选择</string>
+    <string name="qr_code_image">食谱的二维码</string>
+    <string name="share_qr_code">分享二维码</string>
+    <string name="share_calculated_weights">分享计算出的重量</string>
+    <string name="calculated_weights_for">%1$s 的计算重量</string>
+    <string name="qr_code_not_found">在所选图片中未找到二维码。</string>
+    <string name="delete_confirmation_title">删除食谱</string>
+    <string name="delete_confirmation_message">您确定要删除“%1$s”吗？此操作无法撤销。</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="restore_confirmation_title">恢复食谱</string>
+    <string name="restore_confirmation_message">这将删除所有当前食谱并用备份替换它们。您确定吗？</string>
+    <string name="restore">恢复</string>
+    <string name="recipe_imported_successfully">食谱导入成功！</string>
+    <string name="please_enter_recipe_name">请输入食谱名称</string>
+    <string name="at_least_one_ingredient">食谱必须至少有一种配料。</string>
+    <string name="invalid_weight_for">%1$s 的权重无效</string>
+    <string name="add_at_least_one_ingredient">请至少添加一种有效的配料</string>
+    <string name="unit">单位</string>
+    <string name="notes_hint">备注（例如：种子、坚果）</string>
+    <string name="oven_temp_time_hint">烤箱温度和时间</string>
+    <string name="notes">备注</string>
+    <string name="oven_instructions">烤箱说明</string>
+    <string name="weight_hint">重量</string>
+    <string name="percentage_hint">%</string>
+    <string name="ingredient_name">配料名称</string>
+    <string name="remove_ingredient">移除配料</string>
+    <string name="flour">面粉</string>
+</resources>

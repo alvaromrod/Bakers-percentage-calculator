@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculateur de Pourcentage du Boulanger</string>
+    <string name="recipe_name">Nom de la recette</string>
+    <string name="ingredients">Ingrédients</string>
+    <string name="add_ingredient">Ajouter un ingrédient</string>
+    <string name="save_recipe">Enregistrer la recette</string>
+    <string name="total_dough_weight">Poids total de la pâte</string>
+    <string name="edit_recipe">Modifier la recette</string>
+    <string name="delete_recipe">Supprimer la recette</string>
+    <string name="share_recipe">Partager la recette</string>
+    <string name="backup_recipes">Sauvegarder les recettes</string>
+    <string name="restore_recipes">Restaurer les recettes</string>
+    <string name="import_recipe">Importer une recette</string>
+    <string name="share_as_text">Partager en texte</string>
+    <string name="share_as_qr">Partager avec un code QR</string>
+    <string name="scan_with_camera">Scanner avec la caméra</string>
+    <string name="choose_from_gallery">Choisir dans la galerie</string>
+    <string name="qr_code_image">Code QR pour la recette</string>
+    <string name="share_qr_code">Partager le code QR</string>
+    <string name="share_calculated_weights">Partager les poids calculés</string>
+    <string name="calculated_weights_for">Poids calculés pour %1$s</string>
+    <string name="qr_code_not_found">Aucun code QR trouvé dans l\'image sélectionnée.</string>
+    <string name="delete_confirmation_title">Supprimer la recette</string>
+    <string name="delete_confirmation_message">Êtes-vous sûr de vouloir supprimer "%1$s" ? Cette action est irréversible.</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="restore_confirmation_title">Restaurer les recettes</string>
+    <string name="restore_confirmation_message">Cela supprimera toutes les recettes actuelles et les remplacera par la sauvegarde. Êtes-vous sûr ?</string>
+    <string name="restore">Restaurer</string>
+    <string name="recipe_imported_successfully">Recette importée avec succès !</string>
+    <string name="please_enter_recipe_name">Veuillez entrer un nom de recette</string>
+    <string name="at_least_one_ingredient">Une recette doit contenir au moins un ingrédient.</string>
+    <string name="invalid_weight_for">Poids non valide pour %1$s</string>
+    <string name="add_at_least_one_ingredient">Veuillez ajouter au moins un ingrédient valide</string>
+    <string name="unit">Unité</string>
+    <string name="notes_hint">Notes (ex: graines, noix)</string>
+    <string name="oven_temp_time_hint">Temp. et temps du four</string>
+    <string name="notes">Notes</string>
+    <string name="oven_instructions">Instructions du four</string>
+    <string name="weight_hint">Poids</string>
+    <string name="percentage_hint">%</string>
+    <string name="ingredient_name">Nom de l\'ingrédient</string>
+    <string name="remove_ingredient">Retirer l\'ingrédient</string>
+    <string name="flour">Farine</string>
+</resources>

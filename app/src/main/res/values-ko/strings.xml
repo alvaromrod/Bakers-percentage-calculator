@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">베이커 백분율 계산기</string>
+    <string name="recipe_name">레시피 이름</string>
+    <string name="ingredients">재료</string>
+    <string name="add_ingredient">재료 추가</string>
+    <string name="save_recipe">레시피 저장</string>
+    <string name="total_dough_weight">총 반죽 무게</string>
+    <string name="edit_recipe">레시피 수정</string>
+    <string name="delete_recipe">레시피 삭제</string>
+    <string name="share_recipe">레시피 공유</string>
+    <string name="backup_recipes">레시피 백업</string>
+    <string name="restore_recipes">레시피 복원</string>
+    <string name="import_recipe">레시피 가져오기</string>
+    <string name="share_as_text">텍스트로 공유</string>
+    <string name="share_as_qr">QR 코드로 공유</string>
+    <string name="scan_with_camera">카메라로 스캔</string>
+    <string name="choose_from_gallery">갤러리에서 선택</string>
+    <string name="qr_code_image">레시피용 QR 코드</string>
+    <string name="share_qr_code">QR 코드 공유</string>
+    <string name="share_calculated_weights">계산된 무게 공유</string>
+    <string name="calculated_weights_for">%1$s의 계산된 무게</string>
+    <string name="qr_code_not_found">선택한 이미지에서 QR 코드를 찾을 수 없습니다.</string>
+    <string name="delete_confirmation_title">레시피 삭제</string>
+    <string name="delete_confirmation_message">"%1$s"을(를) 정말 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.</string>
+    <string name="cancel">취소</string>
+    <string name="delete">삭제</string>
+    <string name="restore_confirmation_title">레시피 복원</string>
+    <string name="restore_confirmation_message">현재 모든 레시피가 삭제되고 백업으로 대체됩니다. 계속하시겠습니까?</string>
+    <string name="restore">복원</string>
+    <string name="recipe_imported_successfully">레시피를 성공적으로 가져왔습니다!</string>
+    <string name="please_enter_recipe_name">레시피 이름을 입력하세요</string>
+    <string name="at_least_one_ingredient">레시피에는 최소한 하나의 재료가 있어야 합니다.</string>
+    <string name="invalid_weight_for">%1$s의 잘못된 무게</string>
+    <string name="add_at_least_one_ingredient">유효한 재료를 하나 이상 추가하세요</string>
+    <string name="unit">단위</string>
+    <string name="notes_hint">메모 (예: 씨앗, 견과류)</string>
+    <string name="oven_temp_time_hint">오븐 온도 및 시간</string>
+    <string name="notes">메모</string>
+    <string name="oven_instructions">오븐 지침</string>
+    <string name="weight_hint">무게</string>
+    <string name="percentage_hint">%</string>
+    <string name="ingredient_name">재료 이름</string>
+    <string name="remove_ingredient">재료 제거</string>
+    <string name="flour">밀가루</string>
+</resources>

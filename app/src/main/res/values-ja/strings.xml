@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ベーカーズパーセント計算機</string>
+    <string name="recipe_name">レシピ名</string>
+    <string name="ingredients">材料</string>
+    <string name="add_ingredient">材料を追加</string>
+    <string name="save_recipe">レシピを保存</string>
+    <string name="total_dough_weight">総生地重量</string>
+    <string name="edit_recipe">レシピを編集</string>
+    <string name="delete_recipe">レシピを削除</string>
+    <string name="share_recipe">レシピを共有</string>
+    <string name="backup_recipes">レシピをバックアップ</string>
+    <string name="restore_recipes">レシピを復元</string>
+    <string name="import_recipe">レシピをインポート</string>
+    <string name="share_as_text">テキストとして共有</string>
+    <string name="share_as_qr">QRコードで共有</string>
+    <string name="scan_with_camera">カメラでスキャン</string>
+    <string name="choose_from_gallery">ギャラリーから選択</string>
+    <string name="qr_code_image">レシピのQRコード</string>
+    <string name="share_qr_code">QRコードを共有</string>
+    <string name="share_calculated_weights">計算された重量を共有</string>
+    <string name="calculated_weights_for">%1$s の計算重量</string>
+    <string name="qr_code_not_found">選択した画像にQRコードが見つかりませんでした。</string>
+    <string name="delete_confirmation_title">レシピを削除</string>
+    <string name="delete_confirmation_message">「%1$s」を本当に削除しますか？この操作は元に戻せません。</string>
+    <string name="cancel">キャンセル</string>
+    <string name="delete">削除</string>
+    <string name="restore_confirmation_title">レシピを復元</string>
+    <string name="restore_confirmation_message">これにより、現在のすべてのレシピが削除され、バックアップに置き換えられます。よろしいですか？</string>
+    <string name="restore">復元</string>
+    <string name="recipe_imported_successfully">レシピが正常にインポートされました！</string>
+    <string name="please_enter_recipe_name">レシピ名を入力してください</string>
+    <string name="at_least_one_ingredient">レシピには少なくとも1つの材料が必要です。</string>
+    <string name="invalid_weight_for">%1$s の無効な重量</string>
+    <string name="add_at_least_one_ingredient">少なくとも1つの有効な材料を追加してください</string>
+    <string name="unit">単位</string>
+    <string name="notes_hint">メモ（例：種、ナッツ）</string>
+    <string name="oven_temp_time_hint">オーブンの温度と時間</string>
+    <string name="notes">メモ</string>
+    <string name="oven_instructions">オーブンの手順</string>
+    <string name="weight_hint">重量</string>
+    <string name="percentage_hint">％</string>
+    <string name="ingredient_name">材料名</string>
+    <string name="remove_ingredient">材料を削除</string>
+    <string name="flour">小麦粉</string>
+</resources>

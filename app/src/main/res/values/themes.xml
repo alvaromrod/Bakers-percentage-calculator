@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BakersPercentageCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--
+            Material 3 relies on theme attributes for coloring.
+            Instead of custom attributes like 'iconColor', use standard ones
+            like ?attr/colorOnSurface, ?attr/colorPrimary, etc. in your layouts.
+            This has already been done in the layout files.
+        -->
+    </style>
+
+    <style name="Theme.BakersPercentageCalculator" parent="Base.Theme.BakersPercentageCalculator" />
+</resources>

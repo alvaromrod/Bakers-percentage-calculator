@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora de Porcentagem de Padeiro</string>
+    <string name="recipe_name">Nome da Receita</string>
+    <string name="ingredients">Ingredientes</string>
+    <string name="add_ingredient">Adicionar Ingrediente</string>
+    <string name="save_recipe">Salvar Receita</string>
+    <string name="total_dough_weight">Peso Total da Massa</string>
+    <string name="edit_recipe">Editar Receita</string>
+    <string name="delete_recipe">Excluir Receita</string>
+    <string name="share_recipe">Compartilhar Receita</string>
+    <string name="backup_recipes">Fazer Backup das Receitas</string>
+    <string name="restore_recipes">Restaurar Receitas</string>
+    <string name="import_recipe">Importar Receita</string>
+    <string name="share_as_text">Compartilhar como Texto</string>
+    <string name="share_as_qr">Compartilhar com Código QR</string>
+    <string name="scan_with_camera">Escanear com a Câmera</string>
+    <string name="choose_from_gallery">Escolher da Galeria</string>
+    <string name="qr_code_image">Código QR da receita</string>
+    <string name="share_qr_code">Compartilhar Código QR</string>
+    <string name="share_calculated_weights">Compartilhar Pesos Calculados</string>
+    <string name="calculated_weights_for">Pesos Calculados para %1$s</string>
+    <string name="qr_code_not_found">Nenhum código QR encontrado na imagem selecionada.</string>
+    <string name="delete_confirmation_title">Excluir Receita</string>
+    <string name="delete_confirmation_message">Tem certeza de que deseja excluir "%1$s"? Esta ação não pode ser desfeita.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Excluir</string>
+    <string name="restore_confirmation_title">Restaurar Receitas</string>
+    <string name="restore_confirmation_message">Isso excluirá todas as receitas atuais e as substituirá pelo backup. Tem certeza?</string>
+    <string name="restore">Restaurar</string>
+    <string name="recipe_imported_successfully">Receita importada com sucesso!</string>
+    <string name="please_enter_recipe_name">Por favor, insira um nome para a receita</string>
+    <string name="at_least_one_ingredient">Uma receita deve ter pelo menos um ingrediente.</string>
+    <string name="invalid_weight_for">Peso inválido para %1$s</string>
+    <string name="add_at_least_one_ingredient">Por favor, adicione pelo menos um ingrediente válido</string>
+    <string name="unit">Unidade</string>
+    <string name="notes_hint">Notas (ex: sementes, nozes)</string>
+    <string name="oven_temp_time_hint">Temp. e Tempo do Forno</string>
+    <string name="notes">Notas</string>
+    <string name="oven_instructions">Instruções do Forno</string>
+    <string name="weight_hint">Peso</string>
+    <string name="percentage_hint">%</string>
+    <string name="ingredient_name">Nome do Ingrediente</string>
+    <string name="remove_ingredient">Remover Ingrediente</string>
+    <string name="flour">Farinha</string>
+</resources>

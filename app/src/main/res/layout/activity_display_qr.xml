@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewQrCode"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/qr_code_image" />
+
+    <ImageButton
+        android:id="@+id/buttonShareQr"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/imageViewQrCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/share_button_background"
+        android:contentDescription="@string/share_qr_code"
+        android:src="@drawable/ic_share"
+        app:tint="@color/md_theme_light_onPrimary" />
+
+</RelativeLayout>

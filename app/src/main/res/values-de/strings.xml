@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bäckerprozent-Rechner</string>
+    <string name="recipe_name">Rezeptname</string>
+    <string name="ingredients">Zutaten</string>
+    <string name="add_ingredient">Zutat hinzufügen</string>
+    <string name="save_recipe">Rezept speichern</string>
+    <string name="total_dough_weight">Gesamtteiggewicht</string>
+    <string name="edit_recipe">Rezept bearbeiten</string>
+    <string name="delete_recipe">Rezept löschen</string>
+    <string name="share_recipe">Rezept teilen</string>
+    <string name="backup_recipes">Rezepte sichern</string>
+    <string name="restore_recipes">Rezepte wiederherstellen</string>
+    <string name="import_recipe">Rezept importieren</string>
+    <string name="share_as_text">Als Text teilen</string>
+    <string name="share_as_qr">Mit QR-Code teilen</string>
+    <string name="scan_with_camera">Mit Kamera scannen</string>
+    <string name="choose_from_gallery">Aus Galerie wählen</string>
+    <string name="qr_code_image">QR-Code für das Rezept</string>
+    <string name="share_qr_code">QR-Code teilen</string>
+    <string name="share_calculated_weights">Berechnete Gewichte teilen</string>
+    <string name="calculated_weights_for">Berechnete Gewichte für %1$s</string>
+    <string name="qr_code_not_found">Kein QR-Code im ausgewählten Bild gefunden.</string>
+    <string name="delete_confirmation_title">Rezept löschen</string>
+    <string name="delete_confirmation_message">Möchten Sie „%1$s“ wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="delete">Löschen</string>
+    <string name="restore_confirmation_title">Rezepte wiederherstellen</string>
+    <string name="restore_confirmation_message">Dadurch werden alle aktuellen Rezepte gelöscht und durch die Sicherung ersetzt. Sind Sie sicher?</string>
+    <string name="restore">Wiederherstellen</string>
+    <string name="recipe_imported_successfully">Rezept erfolgreich importiert!</string>
+    <string name="please_enter_recipe_name">Bitte geben Sie einen Rezeptnamen ein</string>
+    <string name="at_least_one_ingredient">Ein Rezept muss mindestens eine Zutat haben.</string>
+    <string name="invalid_weight_for">Ungültiges Gewicht für %1$s</string>
+    <string name="add_at_least_one_ingredient">Bitte fügen Sie mindestens eine gültige Zutat hinzu</string>
+    <string name="unit">Einheit</string>
+    <string name="notes_hint">Notizen (z.B. Samen, Nüsse)</string>
+    <string name="oven_temp_time_hint">Ofentemp. &amp; Zeit</string>
+    <string name="notes">Notizen</string>
+    <string name="oven_instructions">Ofenanweisungen</string>
+    <string name="weight_hint">Gewicht</string>
+    <string name="percentage_hint">%</string>
+    <string name="ingredient_name">Zutatenname</string>
+    <string name="remove_ingredient">Zutat entfernen</string>
+    <string name="flour">Mehl</string>
+</resources>

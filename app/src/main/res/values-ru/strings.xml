@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор пекарских процентов</string>
+    <string name="recipe_name">Название рецепта</string>
+    <string name="ingredients">Ингредиенты</string>
+    <string name="add_ingredient">Добавить ингредиент</string>
+    <string name="save_recipe">Сохранить рецепт</string>
+    <string name="total_dough_weight">Общий вес теста</string>
+    <string name="edit_recipe">Редактировать рецепт</string>
+    <string name="delete_recipe">Удалить рецепт</string>
+    <string name="share_recipe">Поделиться рецептом</string>
+    <string name="backup_recipes">Резервное копирование рецептов</string>
+    <string name="restore_recipes">Восстановить рецепты</string>
+    <string name="import_recipe">Импортировать рецепт</string>
+    <string name="share_as_text">Поделиться как текст</string>
+    <string name="share_as_qr">Поделиться через QR-код</string>
+    <string name="scan_with_camera">Сканировать камерой</string>
+    <string name="choose_from_gallery">Выбрать из галереи</string>
+    <string name="qr_code_image">QR-код для рецепта</string>
+    <string name="share_qr_code">Поделиться QR-кодом</string>
+    <string name="share_calculated_weights">Поделиться рассчитанными весами</string>
+    <string name="calculated_weights_for">Рассчитанные веса для %1$s</string>
+    <string name="qr_code_not_found">QR-код не найден в выбранном изображении.</string>
+    <string name="delete_confirmation_title">Удалить рецепт</string>
+    <string name="delete_confirmation_message">Вы уверены, что хотите удалить «%1$s»? Это действие нельзя отменить.</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="restore_confirmation_title">Восстановить рецепты</string>
+    <string name="restore_confirmation_message">Это удалит все текущие рецепты и заменит их резервной копией. Вы уверены?</string>
+    <string name="restore">Восстановить</string>
+    <string name="recipe_imported_successfully">Рецепт успешно импортирован!</string>
+    <string name="please_enter_recipe_name">Пожалуйста, введите название рецепта</string>
+    <string name="at_least_one_ingredient">В рецепте должен быть хотя бы один ингредиент.</string>
+    <string name="invalid_weight_for">Неверный вес для %1$s</string>
+    <string name="add_at_least_one_ingredient">Пожалуйста, добавьте хотя бы один действительный ингредиент</string>
+    <string name="unit">Единица</string>
+    <string name="notes_hint">Примечания (например, семена, орехи)</string>
+    <string name="oven_temp_time_hint">Температура и время в духовке</string>
+    <string name="notes">Примечания</string>
+    <string name="oven_instructions">Инструкции для духовки</string>
+    <string name="weight_hint">Вес</string>
+    <string name="percentage_hint">%</string>
+    <string name="ingredient_name">Название ингредиента</string>
+    <string name="remove_ingredient">Удалить ингредиент</string>
+    <string name="flour">Мука</string>
+</resources>

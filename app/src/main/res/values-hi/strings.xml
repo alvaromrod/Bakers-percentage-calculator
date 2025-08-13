@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">बेकर प्रतिशत कैलकुलेटर</string>
+    <string name="recipe_name">रेसिपी का नाम</string>
+    <string name="ingredients">सामग्री</string>
+    <string name="add_ingredient">सामग्री जोड़ें</string>
+    <string name="save_recipe">रेसिपी सहेजें</string>
+    <string name="total_dough_weight">कुल आटे का वजन</string>
+    <string name="edit_recipe">रेसिपी संपादित करें</string>
+    <string name="delete_recipe">रेसिपी हटाएं</string>
+    <string name="share_recipe">रेसिपी साझा करें</string>
+    <string name="backup_recipes">रेसिपी का बैकअप लें</string>
+    <string name="restore_recipes">रेसिपी पुनर्स्थापित करें</string>
+    <string name="import_recipe">रेसिपी आयात करें</string>
+    <string name="share_as_text">टेक्स्ट के रूप में साझा करें</string>
+    <string name="share_as_qr">क्यूआर कोड के साथ साझा करें</string>
+    <string name="scan_with_camera">कैमरे से स्कैन करें</string>
+    <string name="choose_from_gallery">गैलरी से चुनें</string>
+    <string name="qr_code_image">रेसिपी के लिए क्यूआर कोड</string>
+    <string name="share_qr_code">क्यूआर कोड साझा करें</string>
+    <string name="share_calculated_weights">गणना किए गए वजन साझा करें</string>
+    <string name="calculated_weights_for">%1$s के लिए गणना किए गए वजन</string>
+    <string name="qr_code_not_found">चयनित छवि में कोई क्यूआर कोड नहीं मिला।</string>
+    <string name="delete_confirmation_title">रेसिपी हटाएं</string>
+    <string name="delete_confirmation_message">क्या आप वाकई "%1$s" को हटाना चाहते हैं? यह क्रिया पूर्ववत नहीं की जा सकती।</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="delete">हटाएं</string>
+    <string name="restore_confirmation_title">रेसिपी पुनर्स्थापित करें</string>
+    <string name="restore_confirmation_message">यह सभी मौजूदा रेसिपी को हटा देगा और उन्हें बैकअप से बदल देगा। क्या आप निश्चित हैं?</string>
+    <string name="restore">पुनर्स्थापित करें</string>
+    <string name="recipe_imported_successfully">रेसिपी सफलतापूर्वक आयात की गई!</string>
+    <string name="please_enter_recipe_name">कृपया एक रेसिपी नाम दर्ज करें</string>
+    <string name="at_least_one_ingredient">एक रेसिपी में कम से कम एक सामग्री होनी चाहिए।</string>
+    <string name="invalid_weight_for">%1$s के लिए अमान्य वजन</string>
+    <string name="add_at_least_one_ingredient">कृपया कम से कम एक वैध सामग्री जोड़ें</string>
+    <string name="unit">इकाई</string>
+    <string name="notes_hint">नोट्स (जैसे, बीज, मेवे)</string>
+    <string name="oven_temp_time_hint">ओवन का तापमान और समय</string>
+    <string name="notes">नोट्स</string>
+    <string name="oven_instructions">ओवन के निर्देश</string>
+    <string name="weight_hint">वजन</string>
+    <string name="percentage_hint">%</string>
+    <string name="ingredient_name">सामग्री का नाम</string>
+    <string name="remove_ingredient">सामग्री हटाएं</string>
+    <string name="flour">आटा</string>
+</resources>

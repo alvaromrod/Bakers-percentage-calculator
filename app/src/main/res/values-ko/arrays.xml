@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="units">
+        <item>그램</item>
+        <item>온스</item>
+        <item>파운드</item>
+    </string-array>
+</resources>

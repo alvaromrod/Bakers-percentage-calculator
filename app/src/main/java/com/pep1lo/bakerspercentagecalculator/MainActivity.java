@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.PopupMenu;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.result.ActivityResultLauncher;
@@ -19,7 +20,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.pep1lo.bakerspercentagecalculator.R;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.gson.ExclusionStrategy;
@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
     private FloatingActionButton fabAddRecipe;
     private RecipeAdapter adapter;
     private List<Recipe> recipes = new ArrayList<>();
+    private TextView textViewEmptyState; // New TextView
 
     private final ActivityResultLauncher<Intent> addRecipeLauncher = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
@@ -78,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
-    // Launcher for the QR Code Camera Scanner
     private final ActivityResultLauncher<ScanOptions> qrCodeScannerLauncher = registerForActivityResult(new ScanContract(),
             result -> {
                 if(result.getContents() != null) {
@@ -86,7 +86,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
-    // New launcher for picking an image from the gallery
     private final ActivityResultLauncher<Intent> pickImageLauncher = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
             result -> {
@@ -110,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerViewRecipes = findViewById(R.id.recyclerViewRecipes);
         fabAddRecipe = findViewById(R.id.fabAddRecipe);
+        textViewEmptyState = findViewById(R.id.textViewEmptyState); // Initialize the TextView
 
         setupRecyclerView();
         loadRecipes();
@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
         ScanOptions options = new ScanOptions();
         options.setDesiredBarcodeFormats(ScanOptions.QR_CODE);
         options.setPrompt("Scan a recipe QR code");
-        options.setCameraId(0);  // Use a specific camera of the device
+        options.setCameraId(0);
         options.setBeepEnabled(true);
         options.setBarcodeImageEnabled(true);
         qrCodeScannerLauncher.launch(options);
@@ -328,7 +328,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void shareRecipeAsQr(Recipe recipe) {
-        // This strategy tells Gson to skip the 'id' and 'lastTotalWeight' fields during serialization
         ExclusionStrategy strategy = new ExclusionStrategy() {
             @Override
             public boolean shouldSkipField(FieldAttributes f) {
@@ -355,6 +354,15 @@ public class MainActivity extends AppCompatActivity {
     private void loadRecipes() {
         recipes = dataSource.getAllRecipes();
         adapter.setRecipes(recipes);
+
+        // Show or hide the empty state message
+        if (recipes.isEmpty()) {
+            recyclerViewRecipes.setVisibility(View.GONE);
+            textViewEmptyState.setVisibility(View.VISIBLE);
+        } else {
+            recyclerViewRecipes.setVisibility(View.VISIBLE);
+            textViewEmptyState.setVisibility(View.GONE);
+        }
     }
 
     private void showDeleteConfirmationDialog(Recipe recipe) {

@@ -43,4 +43,5 @@
     <string name="ingredient_name">材料名</string>
     <string name="remove_ingredient">材料を削除</string>
     <string name="flour">小麦粉</string>
+    <string name="no_recipes_prompt">+ ボタンを押して最初のレシピを追加してください！</string>
 </resources>

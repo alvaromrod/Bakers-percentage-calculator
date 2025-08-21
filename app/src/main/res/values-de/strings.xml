@@ -43,4 +43,5 @@
     <string name="ingredient_name">Zutatenname</string>
     <string name="remove_ingredient">Zutat entfernen</string>
     <string name="flour">Mehl</string>
+    <string name="no_recipes_prompt">Drücke den +-Knopf, um dein erstes Rezept hinzuzufügen!</string>
 </resources>

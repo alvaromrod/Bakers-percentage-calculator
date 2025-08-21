@@ -43,4 +43,5 @@
     <string name="ingredient_name">Nome do Ingrediente</string>
     <string name="remove_ingredient">Remover Ingrediente</string>
     <string name="flour">Farinha</string>
+    <string name="no_recipes_prompt">Pressione o botão + para adicionar sua primeira receita!</string>
 </resources>

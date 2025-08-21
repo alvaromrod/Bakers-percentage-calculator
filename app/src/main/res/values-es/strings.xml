@@ -52,4 +52,5 @@
     <string name="total_dough_weight_unit">Peso Total de la Masa (%1$s)</string>
     <string name="weight_unit">Peso (%1$s)</string>
     <string name="flour">Harina</string>
+    <string name="no_recipes_prompt">¡Presiona el botón + para añadir tu primera receta!</string>
 </resources>

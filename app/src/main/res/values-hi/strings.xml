@@ -43,4 +43,5 @@
     <string name="ingredient_name">सामग्री का नाम</string>
     <string name="remove_ingredient">सामग्री हटाएं</string>
     <string name="flour">आटा</string>
+    <string name="no_recipes_prompt">अपनी पहली रेसिपी जोड़ने के लिए + बटन दबाएं!</string>
 </resources>

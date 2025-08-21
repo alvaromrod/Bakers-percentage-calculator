@@ -43,4 +43,5 @@
     <string name="ingredient_name">配料名称</string>
     <string name="remove_ingredient">移除配料</string>
     <string name="flour">面粉</string>
+    <string name="no_recipes_prompt">按 + 按钮添加您的第一个食谱！</string>
 </resources>

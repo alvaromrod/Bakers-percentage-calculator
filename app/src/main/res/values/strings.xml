@@ -59,4 +59,5 @@
     <string name="total_dough_weight_unit">Total Dough Weight (%1$s)</string>
     <string name="weight_unit">Weight (%1$s)</string>
     <string name="flour">Flour</string>
+    <string name="no_recipes_prompt">Press the + button to add your first recipe!</string>
 </resources>

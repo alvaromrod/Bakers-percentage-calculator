@@ -1,0 +1,9 @@
+A simple and efficient Android application for calculating baker's percentages. This app helps bakers scale recipes and understand ingredient ratios with ease.
+
+Features:
+
+*   **Recipe Management:** Create, edit, and delete recipes.
+*   **Baker's Percentage Calculation:** Automatically calculates ingredient weights based on flour weight and percentages.
+*   **QR Code Sharing:** Share recipes instantly via QR codes.
+*   **Backup & Restore:** Save your recipes to a JSON file and restore them later.
+*   **Offline First:** All data is stored locally on your device.

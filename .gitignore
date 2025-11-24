@@ -13,3 +13,14 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Keystore
+Key
+keystore.properties
+
+# Secrets
+*.pem
+
+# Build Artifacts
+*.apk
+

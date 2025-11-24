@@ -4,6 +4,8 @@
     package="com.pep1lo.bakerspercentagecalculator">
 
     <application
+        android:name=".BakersPercentageApp"
+        android:localeConfig="@xml/locales_config"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"

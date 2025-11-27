@@ -19,3 +19,10 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Keep data classes for Gson serialization
+-keep class com.pep1lo.bakerspercentagecalculator.Recipe { *; }
+-keep class com.pep1lo.bakerspercentagecalculator.Ingredient { *; }
+
+# Required for Gson to handle generic types (e.g. ArrayList<Recipe>)
+-keepattributes Signature

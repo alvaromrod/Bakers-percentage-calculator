@@ -6,6 +6,7 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Recipe(
+    @SerializedName("id")
     var id: Long = 0,
 
     @SerializedName(value = "name", alternate = ["recipe_name", "recipeName"])
@@ -14,6 +15,7 @@ data class Recipe(
     @SerializedName(value = "ingredients", alternate = ["ingredient_list", "ingredientList"])
     var ingredients: MutableList<Ingredient> = ArrayList(),
 
+    @SerializedName("lastTotalWeight")
     var lastTotalWeight: Double = 0.0,
 
     @SerializedName("unit")

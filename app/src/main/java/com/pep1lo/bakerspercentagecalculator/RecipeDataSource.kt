@@ -118,7 +118,7 @@ class RecipeDataSource private constructor(context: Context) {
         val ingredientsJson = cursor.getString(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_INGREDIENTS))
 
         if (!ingredientsJson.isNullOrEmpty()) {
-            val listType = object : TypeToken<ArrayList<Ingredient>>() {}.type
+            val listType = TypeToken.getParameterized(ArrayList::class.java, Ingredient::class.java).type
             val ingredients: MutableList<Ingredient> = gson.fromJson(ingredientsJson, listType)
             recipe.ingredients = ingredients
         } else {
